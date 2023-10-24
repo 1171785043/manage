@@ -23,7 +23,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://172.16.20.1:30306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.jdbc.Driver
   redis:
     host: 127.0.0.1
